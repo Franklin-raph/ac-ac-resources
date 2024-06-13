@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frank</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <nav class="nav">
@@ -12,11 +15,11 @@
 
         <div>
             <ul>
-                <li><a href="#sect-1">BRIEF</a></li>
-                <li><a href="#sect-2">MISSION & VISION</a></li>
-                <li><a href="#sect-3">PORTFOLIO</a></li>
-                <li><a href="#sect-4">SOFTWARE PRODUCTS</a></li>
-                <li><a href="#sect-5">MANAGEMENT TEAM</a></li>
+                <!-- <li><a href="#sect-1">BRIEF</a></li> -->
+                <li><a href="#sect-4">MISSION & VISION</a></li>
+                <li><a href="#sect-5">PORTFOLIO</a></li>
+                <li><a href="#sect-6">SOFTWARE PRODUCTS</a></li>
+                <li><a href="#sect-7">MANAGEMENT TEAM</a></li>
             </ul>
         </div>
     </nav>
@@ -62,14 +65,18 @@
     </section>
 
     <section id="sect-4">
-        <div>
-            <img src="" alt="">
-            <p>As an honest establishment, we seek to create and promote great ideas, enduring facilities and satisfaction. We strive to grow our business with same honesty and integrity we use to mold our brands, with sustainability and great institution for all.</p>
-        </div>
+        <h1>MISSION & VISION</h1>
 
-        <div>
-            <img src="" alt="">
-            <p>To create a business world with zero tolerance to excuses and enshrine due diligence to do things.            </p>
+        <div class="mandv">
+            <div>
+                <img src="" alt="">
+                <p>As an honest establishment, we seek to create and promote great ideas, enduring facilities and satisfaction. We strive to grow our business with same honesty and integrity we use to mold our brands, with sustainability and great institution for all.</p>
+            </div>
+    
+            <div>
+                <img src="" alt="">
+                <p>To create a business world with zero tolerance to excuses and enshrine due diligence to do things.            </p>
+            </div>
         </div>
     </section>
 
@@ -86,7 +93,7 @@
         </div>
     </div>
 
-    <section>
+    <section id="sect-5">
         <div class="portfolio">
             <h1>OUR PORTFOLIO EXPERTISE</h1>
             <table>
@@ -163,7 +170,8 @@
     <section id="sect-7">
         <h1>DIRECTORS/MANAGEMENT TEAM</h1>
 
-        <div class="names">
+
+        <div class="names owl-carousel">
             <div>
                 <h1>ADUAKA  ADAOBI  C.</h1>
                 <h2>(COMPANY'S SECRETARY)</h2>
@@ -204,9 +212,38 @@
         <img src="/images/Picture3.jpg" alt="">
     </section>
 
-    <footer>
+    <!-- <footer>
         <img src="/images/Picture1.jpg" alt="">
 
+    </footer> -->
+
+    <footer class="footer">
+        <img src="/images/Picture1.jpg" alt="AC & AC Resources Logo">
+        <h2>CONTACT US</h2>
+        <div class="contact-info">
+            <div>
+                <i class="bi bi-geo-alt"></i>
+                NO1 Ike Nduba road, Isi Achelle, Igbakwu, Ayamelum L.G.A, Anambra State
+            </div>
+            <div>
+                <i class="bi bi-globe"></i>
+                <a href="http://www.gotruhub.com">www.gotruhub.com</a> (pending)
+            </div>
+            <div>
+                <i class="bi bi-telephone"></i>
+                08033288394
+            </div>
+            <div>
+                <i class="bi bi-envelope"></i>
+                acandacresources@gmail.com
+            </div>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="/script.js"></script>
 </body>
 </html>
