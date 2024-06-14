@@ -144,6 +144,7 @@ nav {
     width: 90%;
     margin: 80px auto;
     padding: 80px 0px 0px;
+    color: #F38735;
 }
 
 #sect-4 h1 {
@@ -277,6 +278,7 @@ tr:nth-child(even) td {
 #sect-6 > h1 {
     font-size: 40px;
     text-align: center;
+    color: #F38735;
 }
 
 #sect-6 h2 {
@@ -330,6 +332,8 @@ tr:nth-child(even) td {
 #sect-7 > h1 {
     font-size: 40px;
     text-align: center;
+    color: #F38735;
+
 }
 
 #sect-7 .names {
@@ -365,6 +369,7 @@ tr:nth-child(even) td {
 #sect-8 h1 {
     font-size: 40px;
     text-align: center;
+    color: #F38735;
 }
 
 #sect-8 img {
@@ -415,6 +420,7 @@ footer .short {
     font-weight: bold;
     margin: 10px 0;
     text-align: left;
+    color: #F38735;
 }
 .footer .contact-info {
     display: flex;
