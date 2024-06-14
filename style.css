@@ -471,3 +471,37 @@ footer .short {
 .footer a:hover {
     text-decoration: underline;
 }
+
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #F58634;
+    /* border: none; */
+    padding: 15px 20px;
+    border: 5px solid #000;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.owl-prev {
+    left: 10px;
+}
+
+.owl-next {
+    right: 10px;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background-color: #EE3137;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    background: transparent;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
