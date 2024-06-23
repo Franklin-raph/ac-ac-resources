@@ -83,20 +83,6 @@ nav i {
 }
 
 
-.sect-3-right {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-}
-
-/* .sect-3-right h1{
-    width: 40%;
-    font-size: 22px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid white;
-} */
-
 
 .container {
     max-width: 800px;
@@ -202,8 +188,6 @@ nav i {
     max-width: 250px;
     height: 200px;
     margin: 10px;
-    /* border-radius: 50%; */
-    /* border: 2px solid #f0db4f; */
 }
 
 .Value p {
@@ -299,7 +283,7 @@ tr:nth-child(even) td {
 
 .hodlers {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 70px;
 }
 
@@ -748,3 +732,93 @@ footer .short {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width:386px) {
+    .nav img {
+        width: 35%;
+    }
+    #sect-3 {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #sect-3 img {
+        height: 250px;
+        width: 50%;
+    }
+    #sect-4 {
+        width: 90%;
+        margin: 20px auto;
+        padding: 40px 0px 0px;
+    }
+    #sect-4 .mandv {
+        flex-direction: column;
+        gap: 30px;
+        font-size: 12px;
+    }
+    #sect-4 div > div {
+        width: 90%;
+        text-align: start;
+    }
+    .Value {
+        max-width: 400px;
+        padding: 0px;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .Value > div {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Value h1 {
+        font-size: 30px;
+    }
+    .value .divide{
+        width: 80%;
+    }
+
+    .Value img {
+        max-width: 250px;
+        height: 190px;
+        width: 90%;
+        margin: 5px auto;
+    }
+    #sect-5 {
+        height: auto;
+        padding: 30px 0px;
+    }
+    
+    .portfolio {
+        width: 95%;
+        max-width: 1000px;
+        padding: 10px 0px;
+    }
+    table {
+        width: 95%;
+        margin: 0px auto;
+        border-radius: 15px;
+        /* border-collapse: collapse; */
+    }
+    th, td {
+        padding: 10px;
+    }
+    #sect-6 {
+        padding: 30px 0;
+        margin: 40px auto;
+    }
+    .hodlers {
+        gap: 0;
+    }
+    #sect-7 {
+        padding: 0px 0;
+        margin: 30px auto;
+    }
+    #sect-7 .names {
+        gap: 20px;
+    }
+    #sect-8 {
+        margin: 30px auto 20px;
+    }
+
+}   
