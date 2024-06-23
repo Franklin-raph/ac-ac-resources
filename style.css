@@ -733,7 +733,7 @@ footer .short {
     }
 }
 
-@media screen and (max-width:386px) {
+@media screen and (max-width:400px) {
     .nav img {
         width: 35%;
     }
