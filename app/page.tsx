@@ -213,8 +213,8 @@ export default function Home() {
             </div>
             <div className='flex items-center justify-center lg:gap-[2rem] gap-[10px] mt-[6rem]'>
               {
-                tabsArray.map(tab => (
-                  <div className={`flex items-center gap-[10px] ${tab === activeTab ? 'text-primary-color underline' : 'text-text-color'}`}>
+                tabsArray.map((tab, i) => (
+                  <div key={i} className={`flex items-center gap-[10px] ${tab === activeTab ? 'text-primary-color underline' : 'text-text-color'}`}>
                     <button onClick={() => setActiveTab(tab)}>{tab}</button>
                   </div>
                 ))
@@ -227,7 +227,7 @@ export default function Home() {
                         <img src="./images/trade_img.svg" className='sm:w-[40%]' alt="" />
                         <div className='w-[100%]'>
                             <p className='md:text-[32px] text-[24px] font-[500] mb-3'>{activeTab}</p>
-                            <p className='text-[#6F7975]'>This is a  cooperative trading feature that is designed for cashless trading. It comes with a user friendly inventory management system for the Organization's shop, a wallet system for the students and also allows parents see the details of their wards financial transactions.This feature will bring our children up to speed with the prevailing technology, helps control pilfering, reckless spending & misappropriation of students funds by school guardians.</p>
+                            <p className='text-[#6F7975]'>This is a  cooperative trading feature that is designed for cashless trading. It comes with a user friendly inventory management system for the Organization&apos;s shop, a wallet system for the students and also allows parents see the details of their wards financial transactions.This feature will bring our children up to speed with the prevailing technology, helps control pilfering, reckless spending & misappropriation of students funds by school guardians.</p>
                             <div className=''>
                                 <button onClick={() => {
                                   window.location.href = 'https://go-tru-hub.vercel.app/'
@@ -275,7 +275,7 @@ export default function Home() {
                         <img src="./images/trade_img.svg" className='sm:w-[50%]' alt="" />
                         <div className='w-[100%]'>
                             <p className='md:text-[32px] text-[24px] font-[500] mb-3'>{activeTab}</p>
-                            <p className='text-[#6F7975]'>This feature has two ends, of which one is "Monitor Source" and the other which is "Monitor End". It is a personnel management feature that helps to monitor the employees as well as students to ensure due diligence in their discharge of duties/attend to classes to curtail truancy amongst students as the case maybe. It does this through electronic capturing and storage of data. It is built to ensure zero compromise in task and time attendance taking. This will in a long way ease the management stress in appraising personnel. It helps to minimize dereliction of duty and optimize output amongst members of staff.  It as well captures class attendance activities of students, stores all the information and transmit them to their assigned supervisors.</p>
+                            <p className='text-[#6F7975]'>This feature has two ends, of which one is &quote;Monitor Source&quote; and the other which is &quote;Monitor End&quote;. It is a personnel management feature that helps to monitor the employees as well as students to ensure due diligence in their discharge of duties/attend to classes to curtail truancy amongst students as the case maybe. It does this through electronic capturing and storage of data. It is built to ensure zero compromise in task and time attendance taking. This will in a long way ease the management stress in appraising personnel. It helps to minimize dereliction of duty and optimize output amongst members of staff.  It as well captures class attendance activities of students, stores all the information and transmit them to their assigned supervisors.</p>
                             <div className=''>
                                 <button onClick={() => {
                                   window.location.href = 'https://go-tru-hub.vercel.app/'
