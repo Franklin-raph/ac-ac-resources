@@ -113,7 +113,7 @@ export default function Home() {
             <Link href='#contact-us'>Contact Us</Link>
           </li>
         </ul>
-        <button className='bg-primary-color text-white px-6 py-2 rounded-full font-[500]'>Get App</button>
+        <button className='bg-primary-color text-white px-6 py-2 rounded-full font-[500]'>Get App.</button>
       </nav>
       <div data-aos="fade-up">
           <div className='main flex items-center justify-between mx-auto md:flex-row flex-col-reverse lg:px-[10rem] md:px-[2rem] px-[10px] md:text-left text-center py-[4rem]'>
