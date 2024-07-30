@@ -3,31 +3,62 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #F23507;
+  --secondary-color: #B10200;
+  --text-color: #565D56;
+  --heading-color: #252825;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+p{
+  font-size: 15.008px;
+}
+
+.main{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/business-professional.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+.ri-close-fill{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  .togglers{
+    display: block !important;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  nav button{
+    display: none;
+  }
+  
+  nav ul{
+    position: fixed;
+    top: -180px;
+    box-shadow: 0 0 20px rgb(118, 118, 118);
+    border-radius: 10px;
+    left: 50%;
+    padding: 1.8rem 0;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    background-color: #fff;
+    width: 300px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+    z-index: 99;
   }
 }
