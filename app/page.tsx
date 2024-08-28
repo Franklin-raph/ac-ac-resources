@@ -116,7 +116,7 @@ export default function Home() {
         <button className='bg-primary-color text-white px-6 py-2 rounded-full font-[500]'>Get App</button>
       </nav>
       <div data-aos="fade-up">
-          <div className='main flex items-center justify-between mx-auto md:flex-row flex-col-reverse lg:px-[10rem] md:px-[2rem] px-[10px] md:text-left text-center py-[4rem]'>
+          <main className='main flex items-center justify-between mx-auto md:flex-row flex-col-reverse lg:px-[10rem] md:px-[2rem] px-[10px] md:text-left text-center py-[4rem]'>
               <div className='md:w-[70%] md:mt-0 mt-10'>
                   <h1 className='text-[28px] md:text-[36px] font-[600] text-white'>AC & AC RESOURCES</h1>
                   <p className='my-3 text-white'>AC & AC RESOURCES is a business consulting, product marketing and currently introducing software solutions product called Gotruhub to her portfolio. We generate and develop business ideas, engage in product marketing and also offer corporate consultancy services.</p>
@@ -130,7 +130,7 @@ export default function Home() {
                   <img src="./images/svg-image-2.svg" alt="" />
                   {/* <img src="./images/thumbnail.png" alt="" className='w-[300px]' /> */}
               </div>
-          </div>
+          </main>
 
           <section id='our-mission-vision' className='bg-[#28374C] py-[3rem] flex flex-col gap-[4rem]'>
             <div className='lg:px-[10rem] md:px-[2rem] px-[10px] flex md:flex-row-reverse items-center justify-between flex-col'>
