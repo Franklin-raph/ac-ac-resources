@@ -113,7 +113,7 @@ export default function Home() {
             <Link href='#contact-us'>Contact Us</Link>
           </li>
         </ul>
-        <button className='bg-primary-color text-white px-6 py-2 rounded-full font-[500]'>Get App.</button>
+        <button className='bg-primary-color text-white px-6 py-2 rounded-full font-[500]'>Get App</button>
       </nav>
       <div data-aos="fade-up">
           <div className='main flex items-center justify-between mx-auto md:flex-row flex-col-reverse lg:px-[10rem] md:px-[2rem] px-[10px] md:text-left text-center py-[4rem]'>
@@ -122,7 +122,7 @@ export default function Home() {
                   <p className='my-3 text-white'>AC & AC RESOURCES is a business consulting, product marketing and currently introducing software solutions product called Gotruhub to her portfolio. We generate and develop business ideas, engage in product marketing and also offer corporate consultancy services.</p>
                   <div className='inline-flex gap-5 hero-btns flex-col sm:flex-row'>
                       <div className='bg-primary-color text-white px-6 py-3 cursor-pointer rounded-full font-[500]' onClick={() => {
-                      window.location.href = 'https://go-tru-hub.vercel.app/'
+                      window.location.href = 'https://gotruhub-iota.vercel.app/'
                     }} >Get started with Gotruhub</div>
                   </div>
               </div>
@@ -199,7 +199,7 @@ export default function Home() {
                         </button>
                     </div>
                     <button onClick={() => {
-                      window.location.href = 'https://go-tru-hub.vercel.app/'
+                      window.location.href = 'https://gotruhub-iota.vercel.app/'
                     }} className='bg-primary-color text-white px-5 py-2 mt-[15px] text-center rounded-full w-full flex justify-center items-center gap-2'>
                         <i className="ri-external-link-line text-[20px]"></i>
                         <p>Create an account</p>
@@ -230,7 +230,7 @@ export default function Home() {
                             <p className='text-[#6F7975]'>This is a  cooperative trading feature that is designed for cashless trading. It comes with a user friendly inventory management system for the Organization&apos;s shop, a wallet system for the students and also allows parents see the details of their wards financial transactions.This feature will bring our children up to speed with the prevailing technology, helps control pilfering, reckless spending & misappropriation of students funds by school guardians.</p>
                             <div className=''>
                                 <button onClick={() => {
-                                  window.location.href = 'https://go-tru-hub.vercel.app/'
+                                  window.location.href = 'https://gotruhub-iota.vercel.app/'
                                 }} className='text-white bg-primary-color rounded-[8px] mt-[2.5rem] px-[35px] py-[16px] text-center'>Get Started
                                 </button>
                             </div>
@@ -246,7 +246,7 @@ export default function Home() {
                             <p className='text-[#6F7975]'>This is a feature smartly built to seamlessly upload properly secured results to the app users/students.</p>
                             <div className=''>
                                 <button onClick={() => {
-                                  window.location.href = 'https://go-tru-hub.vercel.app/'
+                                  window.location.href = 'https://gotruhub-iota.vercel.app/'
                                 }} className='text-white bg-primary-color rounded-[8px] mt-[2.5rem] px-[35px] py-[16px] text-center'>Get Started
                                 </button>
                             </div>
@@ -262,7 +262,7 @@ export default function Home() {
                             <p className='text-[#6F7975]'>This feature Keeps track and gives accurate account of students school attendance and movements with the aid of GPS among other technologies. It reports in real time, students arrival and exit from school to  supervisors/guardians. Its incorruptible promptness and accuracy in reportage through SMS/Email helps to minimize security risks & curtails truancy amongst students. It as well keeps proper records of all that are pointed out above for reference purposes.</p>
                             <div className=''>
                                 <button onClick={() => {
-                                  window.location.href = 'https://go-tru-hub.vercel.app/'
+                                  window.location.href = 'https://gotruhub-iota.vercel.app/'
                                 }} className='text-white bg-primary-color rounded-[8px] mt-[2.5rem] px-[35px] py-[16px] text-center'>Get Started
                                 </button>
                             </div>
@@ -278,7 +278,7 @@ export default function Home() {
                             <p className='text-[#6F7975]'>This feature has two ends, of which one is &quote;Monitor Source&quote; and the other which is &quote;Monitor End&quote;. It is a personnel management feature that helps to monitor the employees as well as students to ensure due diligence in their discharge of duties/attend to classes to curtail truancy amongst students as the case maybe. It does this through electronic capturing and storage of data. It is built to ensure zero compromise in task and time attendance taking. This will in a long way ease the management stress in appraising personnel. It helps to minimize dereliction of duty and optimize output amongst members of staff.  It as well captures class attendance activities of students, stores all the information and transmit them to their assigned supervisors.</p>
                             <div className=''>
                                 <button onClick={() => {
-                                  window.location.href = 'https://go-tru-hub.vercel.app/'
+                                  window.location.href = 'https://gotruhub-iota.vercel.app/'
                                 }} className='text-white bg-primary-color rounded-[8px] mt-[2.5rem] px-[35px] py-[16px] text-center'>Get Started
                                 </button>
                             </div>
