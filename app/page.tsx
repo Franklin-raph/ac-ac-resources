@@ -289,7 +289,7 @@ export default function Home() {
                   <p className='text-text-color'>You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.</p>
               </div>
               <div className='font-[500] flex gap-[1rem] flex-col text-text-color mb-[2.5rem]'>
-                  <p><i className="ri-phone-line text-[20px] text-primary-color"></i>: +234 803 328 8394</p>
+                  <p><i className="ri-phone-line text-[20px] text-primary-color"></i>: <a href="tel:+2348033288394">+234 803 328 8394</a> </p>
                   <p><i className="ri-mail-line text-[20px] text-primary-color"></i>: acandacresources@gmail.com</p>
                   <p><i className="ri-map-pin-line text-[20px] text-primary-color"></i>: Flat 3, Block D, Engr Ogochukwu Estate, <br /> Umushi St, Perm. Site, Ivite Awka, Awka South L.G.A., <br /> Anambra State, Nigeria.</p>
               </div>
